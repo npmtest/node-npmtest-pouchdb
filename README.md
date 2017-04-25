@@ -1,4 +1,7 @@
-# test coverage for  [pouchdb (v6.1.2)](https://github.com/pouchdb/pouchdb#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pouchdb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pouchdb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pouchdb.svg)](https://travis-ci.org/npmtest/node-npmtest-pouchdb)
+# npmtest-pouchdb
+
+#### basic test coverage for  [pouchdb (v6.2.0)](https://github.com/pouchdb/pouchdb#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pouchdb.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pouchdb) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pouchdb.svg)](https://travis-ci.org/npmtest/node-npmtest-pouchdb)
+
 #### PouchDB is a pocket-sized database
 
 [![NPM](https://nodei.co/npm/pouchdb.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pouchdb)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pouchdb/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pouchdb/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pouchdb/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pouchdb/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pouchdb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pouchdb/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pouchdb/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pouchdb/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pouchdb/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pouchdb/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pouchdb/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pouchdb/build/coverage.html/index.html)
 
@@ -46,29 +49,28 @@
         "argsarray": "0.0.1",
         "buffer-from": "0.1.1",
         "clone-buffer": "1.0.0",
-        "debug": "2.6.0",
+        "debug": "2.6.1",
         "double-ended-queue": "2.1.0-0",
         "immediate": "3.0.6",
         "inherits": "2.0.3",
         "level-codec": "7.0.0",
         "level-write-stream": "1.0.0",
         "leveldown": "1.5.0",
-        "levelup": "1.3.3",
-        "lie": "3.1.0",
-        "ltgt": "2.1.2",
+        "levelup": "1.3.5",
+        "lie": "3.1.1",
+        "ltgt": "2.1.3",
         "readable-stream": "1.0.33",
-        "request": "2.79.0",
-        "scope-eval": "0.0.3",
+        "request": "2.80.0",
         "spark-md5": "3.0.0",
-        "through2": "2.0.1",
+        "through2": "2.0.3",
         "vuvuzela": "1.0.3"
     },
     "description": "PouchDB is a pocket-sized database",
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "5ceb310f705f0a7fd23d25fe1a365f36b30ac28b",
-        "tarball": "https://registry.npmjs.org/pouchdb/-/pouchdb-6.1.2.tgz"
+        "shasum": "5c8521b46cfc83644ca7fc61a7b240d2ce17dc0d",
+        "tarball": "https://registry.npmjs.org/pouchdb/-/pouchdb-6.2.0.tgz"
     },
     "files": [
         "lib",
@@ -101,10 +103,16 @@
             "name": "eckoit"
         },
         {
+            "name": "garrensmith"
+        },
+        {
             "name": "nickcolley"
         },
         {
             "name": "nolanlawson"
+        },
+        {
+            "name": "willholley"
         }
     ],
     "name": "pouchdb",
@@ -120,7 +128,8 @@
         "pouchdb"
     ],
     "tonicExampleFilename": "tonic-example.js",
-    "version": "6.1.2"
+    "version": "6.2.0",
+    "bin": {}
 }
 ```
 
